@@ -1,0 +1,73 @@
+{
+  "cities": [
+    {
+      "id": "1",
+      "cityId": 1,
+      "cityName": "Barcelona",
+      "country": "Spain",
+      "population": 1700000,
+      "description": "Architecture, sea and a creative urban life."
+    },
+    {
+      "id": "2",
+      "cityId": 2,
+      "cityName": "Madrid",
+      "country": "Spain",
+      "population": 3300000,
+      "description": "A vibrant capital with a welcoming spirit."
+    },
+    {
+      "id": "3",
+      "cityId": 3,
+      "cityName": "Paris",
+      "country": "France",
+      "population": 2100000,
+      "description": "Beautiful neighborhoods for your next chapter."
+    }
+  ],
+  "apartments": [
+    {
+      "id": "1",
+      "apartmentId": 1,
+      "cityId": 1,
+      "name": "Eixample Residence",
+      "description": "Furnished apartment, ready to move in.",
+      "numberBedrooms": 2,
+      "numberGarage": 1,
+      "price": 1600,
+      "squareMeters": 80,
+      "startDate": "2026-10-07T05:00:00.000Z",
+      "endDate": "2026-10-24T05:00:00.000Z",
+      "state": "C"
+    },
+    {
+      "id": "2",
+      "apartmentId": 2,
+      "cityId": 2,
+      "name": "Chamberí Studio",
+      "description": "Furnished apartment, ready to move in.",
+      "numberBedrooms": 2,
+      "numberGarage": 1,
+      "price": 1800,
+      "squareMeters": 85,
+      "startDate": "2026-10-22T05:00:00.000Z",
+      "endDate": "2027-02-11T05:00:00.000Z",
+      "state": "C"
+    },
+    {
+      "id": "3",
+      "apartmentId": 3,
+      "cityId": 3,
+      "name": "Le Marais Home",
+      "description": "Furnished apartment, ready to move in.",
+      "numberBedrooms": 2,
+      "numberGarage": 1,
+      "price": 2000,
+      "squareMeters": 90,
+      "startDate": "2026-10-23T05:00:00.000Z",
+      "endDate": "2026-10-31T05:00:00.000Z",
+      "state": "C"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

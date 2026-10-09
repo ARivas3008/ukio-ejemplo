@@ -1,0 +1,68 @@
+export const config = {
+    number: 1,
+    slug: 'ukio',
+    nrc: '4424',
+    brand: 'Ukio',
+    domain: 'properties',
+    route: '/properties/renting/new',
+    nav: 'Apartment',
+    title: 'Rent Apartment',
+    subtitle: 'Feel at home wherever you go',
+    section: 'Ukio Cities',
+    port: 3000,
+    modern: false,
+    color: '#88734e',
+    homeTitle: 'Ukio Cities',
+    tagline: 'Find your Home',
+    website: 'ukio.com',
+    columns: 3,
+    kind: 'ukio',
+    reverseToolbar: true,
+    fields: [
+        {
+            name: 'description',
+            label: 'Description',
+            type: 'text',
+        },
+        {
+            name: 'startDate',
+            label: 'Start Date',
+            type: 'date',
+        },
+        {
+            name: 'endDate',
+            label: 'End Date',
+            type: 'date',
+        },
+    ],
+    button: 'make a rent',
+    table: [],
+    homeTable: false,
+    storeFields: [
+        {
+            name: 'id',
+            label: 'Id',
+            type: 'text',
+        },
+        {
+            name: 'name',
+            label: 'Name',
+            type: 'text',
+        },
+        {
+            name: 'description',
+            label: 'Description',
+            type: 'textarea',
+        },
+        {
+            name: 'address',
+            label: 'Address',
+            type: 'text',
+        },
+        {
+            name: 'schedule',
+            label: 'Schedule',
+            type: 'textarea',
+        },
+    ],
+};
